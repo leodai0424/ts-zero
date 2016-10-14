@@ -1,4 +1,12 @@
+@font-face:{
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Microsoft JhengHei', '微軟正黑體', Verdana, Arial, 'Microsoft YaHei' !important;
+}
+
+
 body {
+  font-weight:100;
+  font-family: 'Roboto';
   background-color:black;
   background-image: url(http://www.smartcycleshopper.com/wp-content/uploads/BJN19652.jpg);
   background-repeat: no-repeat;
@@ -31,5 +39,5 @@ div.bottom{
   position:absolute;
   bottom:0;
   background-color:white;
-  width:50%;
+  width:35%;
 }
