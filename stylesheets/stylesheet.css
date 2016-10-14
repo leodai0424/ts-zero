@@ -75,11 +75,6 @@ img.icon{
   
 }
 
-img.slide{
-  margin-top:20px;
-  margin-bottom:100px;
-}
-
 div.footer{
   font-size: 90%;
   text-align:center;
@@ -87,16 +82,14 @@ div.footer{
 }
 
 
+/*slide picture css*/
+
 .slider_container {
-    margin: 30px auto;
-    width: 1000px;
-    height: 500px;
+    margin-top:20px;
+    margin-bottom:100px;
+    width: 960px;
     position: relative;
-    border: 20px solid;    
-    border-color: #fff;
-    border-bottom-width: 100px;
-    background-color: #f5f5f5;
-    box-shadow: #666 0 0 5px;
+    border: 0 ;    
 }
 
 .slider_container div {
@@ -108,48 +101,43 @@ div.footer{
 }
 
 .slider_container div {
-    -webkit-animation: round 25s linear infinite;
-            animation: round 25s linear infinite;
+    -webkit-animation: round 20s linear infinite;
+            animation: round 20s linear infinite;
 }
 
 @-webkit-keyframes round {
-    4% {
+    5% {
         opacity: 1;
         filter: alpha(opacity=100);
         /* 0 - 1秒 淡入*/
     }
-    20% {
+    25% {
         opacity: 1;
         filter: alpha(opacity=100);
         /* 1- 5秒靜止*/
     }
-    24% {
+    30% {
         opacity: 0;
         filter: alpha(opacity=0);
         /* 5-6秒淡出*/
     }
 }
 @keyframes round {
-    4% {
+    5% {
         opacity: 1;
         filter: alpha(opacity=100);
         /* 0 - 1秒 淡入*/
     }
-    20% {
+    25% {
         opacity: 1;
         filter: alpha(opacity=100);
         /* 1- 5秒靜止*/
     }
-    24% {
+    30% {
         opacity: 0;
         filter: alpha(opacity=0);
         /* 5-6秒淡出*/
     }
-}
-
-.slider_container div:nth-child(5) {
-    -webkit-animation-delay: 0s;
-            animation-delay: 0s;
 }
 
 .slider_container div:nth-child(4) {
@@ -201,3 +189,5 @@ div.footer{
     -webkit-animation-play-state: paused;
             animation-play-state: paused;
 }
+
+
