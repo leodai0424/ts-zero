@@ -2,12 +2,14 @@ html {
   background-image: url(http://www.smartcycleshopper.com/wp-content/uploads/BJN19652.jpg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-color: #ccc;
   border: 1px solid green;
   background-size: cover;
   margin:0px auto;
-  min-width:300px;
-  min-height:1000px;
+  min-width:960px;
+  min-height:700px;
 }
 
 
+div{color:pink;
+font-size:72px;
+m}
