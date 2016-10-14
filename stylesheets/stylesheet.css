@@ -1,8 +1,35 @@
 body {
-    margin:0;
-    padding:0;
-    background: #000 url("http://www.smartcycleshopper.com/wp-content/uploads/BJN19652.jpg") center center fixed no-repeat;
-    -moz-background-size: cover;
-    background-size: cover;
-    
+  background-color:black;
+  background-image: url(http://www.smartcycleshopper.com/wp-content/uploads/BJN19652.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  margin:0;
+  padding:0;
+  background-attachment:fixed;
+  border:0;
+
+}
+
+
+
+
+div.top{
+  padding-left:15px;
+  color:white;
+  font-size:72px;
+  position:absolute;
+  top:0;
+  background-color:red;
+  width:100%
+}
+
+div.bottom{
+  padding-left:15px;
+  color:red;
+  font-size:72px;
+  position:absolute;
+  bottom:0;
+  background-color:white;
+  width:50%
 }
