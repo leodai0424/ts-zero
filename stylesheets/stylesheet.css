@@ -21,7 +21,7 @@ div.top{
   position:absolute;
   top:0;
   background-color:red;
-  width:100%
+  width:100%;
 }
 
 div.bottom{
@@ -31,5 +31,5 @@ div.bottom{
   position:absolute;
   bottom:0;
   background-color:white;
-  width:50%
+  width:50%;
 }
