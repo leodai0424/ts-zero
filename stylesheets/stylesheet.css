@@ -43,12 +43,13 @@ q:before,q:after {
 }
 abbr,acronym { border:0;
 }
+
 /* General Demo Style */
 body{
 	font-family: 'Open Sans', sans-serif;
 	background: #000;
 	font-weight: 400;
-	font-size: 15px;
+	font-size: 14px;
 	color: #aa3e03;
 	overflow-y: scroll;
 	overflow-x: hidden;
@@ -56,6 +57,7 @@ body{
 .ie7 body{
 	overflow:hidden;
 }
+
 a{
 	color: #333;
 	text-decoration: none;
@@ -412,3 +414,48 @@ p.codrops-demos a.current-demo:hover{
 @media screen and (max-width: 600px) { 
     .cb-slideshow li div h3 { font-size: 80px }
 }
+
+
+
+/**/
+
+#menu{
+  background-color:black;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+    
+}
+
+#trademark{
+  margin-left:30px;
+  margin-top:20px;
+  float:left;
+  width:30%;
+}
+
+#menubuttom{
+  float:right;
+  font-size:20px;
+  color:white;
+  font-weight:700;
+  
+}
+
+#menubuttom a{
+  margin:10px 10px 10px 10px;}
+
+.line{
+  height:1px;
+  background-color:white;
+  position:relative;
+  top:70px;
+  }
+
+#subtrademark{
+}
+
+
+
+
