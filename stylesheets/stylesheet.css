@@ -1,12 +1,15 @@
 @font-face{
+  font-family: 'cwTeXMing', serif;
   font-family: 'Noto Sans TC', sans-serif;}
 
 
 div.ct{
-   
   font-family: 'Noto Sans TC', sans-serif;
-     
   
+}
+
+div.cx{
+  font-family: 'cwTeXMing', serif;
 }
 
 #bottomblue{
