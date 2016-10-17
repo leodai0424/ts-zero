@@ -1,43 +1,32 @@
-@font-face:{
-  font-family: 'Roboto', sans-serif;
-  font-family: 'Microsoft JhengHei', '微軟正黑體', Verdana, Arial, 'Microsoft YaHei' !important;
+@font-face{
+  font-family: 'Noto Sans TC', sans-serif;}
+
+
+div.ct{
+   
+  font-family: 'Noto Sans TC', sans-serif;
+     
+  
+}
+
+#bottomblue{
+  font-weight:700;
+  background-color:rgba(0,200,255,0.4);
+  padding-left:20px ;
+  height:80px;
+    
 }
 
 
-body {
-  font-weight:100;
-  font-family: 'Roboto';
-  background-color:black;
-  background-image: url(http://www.smartcycleshopper.com/wp-content/uploads/BJN19652.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  margin:0;
-  padding:0;
-  background-attachment:fixed;
-  border:0;
 
-}
+/* {
+    border-color: #FF0000 #FF0000 transparent transparent;
+    border-style: solid solid solid solid;
 
+   
+    border-width: 45px 10px 45px 10px; 
 
-
-
-div.top{
-  padding-left:15px;
-  color:white;
-  font-size:72px;
-  position:absolute;
-  top:0;
-  background-color:red;
-  width:100%;
-}
-
-div.bottom{
-  padding-left:15px;
-  color:red;
-  font-size:72px;
-  position:absolute;
-  bottom:0;
-  background-color:white;
-  width:35%;
+    
+    height: 0px; 
+    width: 0px; 
 }
